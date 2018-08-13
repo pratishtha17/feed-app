@@ -1,0 +1,52 @@
+{
+  "feeds": [
+    {
+      "id": "5678",
+      "userid": "@prats1123",
+      "name": "Pratishtha Patni",
+      "image": "../img/profile3.jpg",
+      "email": "vishalkumar2304@gmail.com",
+      "address": "Marathalli",
+      "username": "vku1",
+      "password": "ghj32g",
+      "time": "2m",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus molestie arcu at lobortis. Duis blandit, diam at convallis eleifend, ex nunc placerat ligula, ut tincidunt felis justo eget enim. Donec non cursus erat."
+    },
+    {
+      "id": "1234",
+      "userid": "@prats1123",
+      "name": "Pavithra",
+      "image": "../img/profile3.jpg",
+      "email": "pavithraumanath11@gmail.com",
+      "address": "Mahadevpura",
+      "username": "pum1",
+      "password": "asd67s",
+      "time": "10m",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus molestie arcu at lobortis. Duis blandit, diam at convallis eleifend, ex nunc placerat ligula, ut tincidunt felis justo eget enim. Donec non cursus erat."
+    },
+    {
+      "id": "1232",
+      "userid": "@prats1123",
+      "name": "Amit",
+      "image": "../img/profile3.jpg",
+      "email": "pavithraumanath11@gmail.com",
+      "address": "Mahadevpura",
+      "username": "pum1",
+      "password": "asd67s",
+      "time": "10m",
+      "picture": "../img/nature.jpeg"
+    },
+    {
+      "id": "1232",
+      "userid": "@prats1123",
+      "name": "Vish",
+      "image": "../img/profile3.jpg",
+      "email": "pavithraumanath11@gmail.com",
+      "address": "Mahadevpura",
+      "username": "pum1",
+      "password": "asd67s",
+      "time": "20m",
+      "video": "https://www.youtube.com/embed/tgbNymZ7vqY"
+    }
+  ]
+}

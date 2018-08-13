@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
+    <title>Food Food</title>
+    <link rel="stylesheet" href="css/assignment2.css">
+    <link href="css/all.min.css" rel="stylesheet">
+</head>
+<body>
+	<header class="flex-row flex-center width-100-percent" id="main-header">
+		<nav class="flex-row flex-center width-100-percent height-100-percent">
+			<div class="flex-row flex-start left-header height-100-percent">
+				<a class="flex-row flex-start"><img class="burger-icon" src="img/logo.png" /></a>
+			</div>
+			<div class="mid-header flex-column flex-center height-100-percent">
+				<div class="flex-row flex-center upper-menu">
+					<ul class="flex-row flex-center">
+						<li>Burger</li>
+						<li>Sausage</li>
+						<li>Kebab</li>
+						<li>Shawarma</li>
+						<li>Cabbage</li>
+					</ul>
+				</div>
+				<hr class="menu-separator" />
+				<div class="lower-menu">
+					<ul class="flex-row flex-center">
+						<li class="lower-menu-item">Beef</li>
+						<li class="lower-menu-item">Mutton</li>
+						<li class="lower-menu-item">Rabbit</li>
+						<li class="lower-menu-item">Chicken</li>
+						<li class="lower-menu-item">Egg</li>
+						<li><button>Ask us</button></li>
+					</ul>
+				</div>
+			</div>
+			<div class="flex-column right-header height-100-percent">
+				<div class="flex-row flex-end login-icon-cont">
+					<div class="flex-row flex-center"><span class="login-text">Log-in</span></div>
+					<a class="flex-row">
+						<img class="login-icon" src="img/login-icon.png" />
+					</a>
+				</div>
+				<div id="menu-icon-cont" class="flex-row flex-end height-100-percent">
+					<i class="fas fa-bars" id="menu-icon"></i>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="width-100-percent">
+		<div class="flex-column width-100-percent food-image-container">
+			<img class="lazy" data-original="img/image1.png" alt="Food Image 1" />
+			<img class="lazy" data-original="img/image2.png" alt="Food Image 2" />
+			<img class="lazy" data-original="img/image3.png" alt="Food Image 3" />
+			<div>
+				<iframe width="100%" class="video-cont" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+				</iframe>
+			</div>
+		</div>
+	</section>
+	<footer class="flex-column flex-center footer-cont">
+		<div class="flex-column flex-center footer-inner-container">
+			<div class="social-icons-container width-100-percent">
+				<ul class="flex-row flex-center social-icons">
+					<li class="flex-row flex-center">
+						<a class="flex-row flex-center facebook-icon">
+							<i class="fab fa-facebook-f social-font"></i>
+						</a>
+					</li>
+					<li class="flex-row flex-center">
+						<a class="flex-row flex-center twittor-icon">
+							<i class="fab fa-twitter social-font"></i>
+						</a>
+					</li>
+					<li class="flex-row flex-center">
+						<a class="flex-row flex-center google-icon">
+							<i class="fab fa-google-plus-g social-font"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="menu-links-cont flex-row flex-center width-100-percent">
+				<ul class="flex-row flex-center menu-links-list">
+					<li>
+						<a class="menu-item">
+							Burger
+						</a>
+					</li>
+					<li>
+						<a class="menu-item">
+							Burger
+						</a>
+					</li>
+					<li>
+						<a class="menu-item">
+							Burger
+						</a>
+					</li>
+					<li>
+						<a class="menu">
+							Burger
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="width-100-percent footer-text">Test for Frontend Ninja. Centre to Content Creation</div>
+		</div>
+	</footer>
+	<section class="menu-section width-100-percent hidden">
+		<div class="top-menu">
+			<ul class="flex-column">
+				<li class="flex-row flex-space-between">
+					<h5 class="top-heading">Select Item</h5>
+					<div class="close-btn"><i class="fas fa-times"></i></div>
+				</li>
+				<li><a>Burger</a></li>
+				<li><a>Sausage</a></li>
+				<li><a>Kebab</a></li>
+				<li><a>Shawarma</a></li>
+				<li><a>Cabbage</a></li>
+			</ul>
+		</div>
+		<div class="more-menu">
+			<h5 class="more-heading">More Items</h5>
+			<ul class="flex-column">
+				<li><a>Meet</a></li>
+				<li><a>Mutton</a></li>
+				<li><a>Rabbit</a></li>
+				<li><a>Chicken</a></li>
+				<li><a>Egg</a></li>
+			</ul>
+		</div>
+    <div class="bottom-links">
+    	<ul class="flex-column">
+    		<li><a>Login/Sign up</a></li>
+    		<li><a>Ask Us</a></li>
+    	</ul>
+    </div>
+  </section>
+  <script src="js/jquery.min.js" type="text/javascript" charset="utf-8" ></script>
+	<script type="text/javascript" src="js/lazyload.js"></script>
+	<script type="text/javascript" defer>
+		$(function() {
+        $('img.lazy').lazyload({
+        	threshold : 200
+        });
+    });
+    $('#menu-icon').click(function(){
+    	$('.menu-section').removeClass('hidden');
+    });
+    $('.close-btn').click(function(){
+    	$('.menu-section').addClass('hidden');
+    });
+	</script>
+</body>
+</html>
