@@ -20,4 +20,4 @@ Step0: Go to browser and enter the URL- http://localhost:3001
 
 For second Assignment
 
--> go to 'assignment2.html' and open in browser.
+-> go to 'app/assignment2.html' and open in browser.
